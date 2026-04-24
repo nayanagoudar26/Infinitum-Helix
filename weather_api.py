@@ -1,5 +1,6 @@
 import requests
 
+# 🔑 Replace with your API key
 API_KEY = "7478721f5608353c1827f07db83b1bfd"
 
 def get_weather(city):
@@ -13,9 +14,11 @@ def get_weather(city):
 
     response = requests.get(url, params=params)
 
+    # Debug prints (you can remove later)
     print("Status:", response.status_code)
     print("Response:", response.text)
 
+    # If API fails
     if response.status_code != 200:
         return None
 
@@ -25,3 +28,10 @@ def get_weather(city):
         "temp": data["main"]["temp"],
         "humidity": data["main"]["humidity"]
     }
+
+
+# 🔥 TEST (optional)
+if __name__ == "__main__":
+    city = "Bangalore"
+    weather = get_weather(city)
+    print(weather)
