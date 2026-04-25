@@ -27,6 +27,7 @@ backend/
     schemas/
     services/
     tests/
+```
   data/
   ml/
   scripts/
@@ -128,3 +129,38 @@ pytest app/tests -q
 - Replace the sample hospital service with Google Places API or a hospital directory feed.
 - Swap the heuristic NLP extractor for spaCy or a medical NER pipeline.
 - Add background jobs for scheduled outbreak aggregation and outbound notifications.
+=======
+# Infinitum-Helix
+
+A placeholder description for the Infinitum-Helix project.
+
+## Features
+
+- Placeholder feature 1
+- Placeholder feature 2
+- Placeholder feature 3
+
+## Installation
+
+```bash
+# Placeholder installation commands
+git clone https://github.com/nayanagoudar26/Infinitum-Helix.git
+cd Infinitum-Helix
+# Add installation steps here
+```
+
+## Usage
+
+```bash
+# Placeholder usage example
+# Add usage instructions here
+```
+
+## Contributing
+
+Contributions are welcome! Please read the contributing guidelines before getting started.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+>>>>>>> 89e1fe8746a7f276d3ab625b917eccc5222027f6
