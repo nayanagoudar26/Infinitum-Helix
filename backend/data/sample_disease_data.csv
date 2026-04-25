@@ -1,0 +1,11 @@
+fever,cough,fatigue,headache,breathing_difficulty,vomiting,diarrhea,rash,joint_pain,chills,temp,humidity,rainfall,disease
+1,1,1,0,0,0,0,0,0,1,29,55,2,Influenza
+1,1,1,1,1,0,0,0,0,1,28,52,1,COVID-19
+1,0,1,1,0,0,0,1,1,1,31,82,16,Dengue
+0,0,1,1,0,1,1,0,0,0,34,68,3,Gastroenteritis
+0,0,1,1,0,0,0,0,0,0,39,45,0,Heat Exhaustion
+1,1,0,1,1,0,0,0,0,0,27,50,1,COVID-19
+1,0,1,0,0,0,0,1,1,1,30,85,18,Dengue
+0,0,1,1,0,1,1,0,0,0,33,72,4,Gastroenteritis
+0,0,1,1,0,0,0,0,0,0,38,42,0,Heat Exhaustion
+1,1,1,0,0,0,0,0,0,1,26,58,5,Influenza
