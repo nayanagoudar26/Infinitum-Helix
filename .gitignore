@@ -1,7 +1,13 @@
+# Python cache
 __pycache__/
 *.pyc
-.env
-frontend/.next/
-frontend/node_modules/
-backend/.venv/
-backend/ml/*.joblib
+
+# Pytest cache
+.pytest_cache/
+pytest-cache-files-*/
+
+# Virtual env
+venv/
+
+# OS files
+.DS_Store
